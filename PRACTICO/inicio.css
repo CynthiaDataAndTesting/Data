@@ -1,0 +1,10 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    width: 100%;
+    background-color: yellowgreen;
+    text-align: center;
+}
