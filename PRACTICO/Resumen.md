@@ -1,27 +1,27 @@
 <h1>íNDICE</h1>
 <ul>
-  <a href= https://github.com/CynthiaDataAndTesting/Data/edit/main/PRACTICO/Resumen.md#-resumen-><li>Resumen</li></a>
-  <a href= https://github.com/CynthiaDataAndTesting/Data/edit/main/PRACTICO/Resumen.md#instrucciones-para-clonar-y-ejecutar-el-login><li>Instrucciones para clonar y ejecutar el login</li></a>
+  <a href= "#resumen"><li>Resumen</li></a>
+  <a href= "#instrucciones"><li>Instrucciones para clonar y ejecutar el login</li></a>
   <ul>
-    <a href= https://github.com/CynthiaDataAndTesting/Data/edit/main/PRACTICO/Resumen.md#requisitos-previos><li>Requisitos previos</li></a>
-    <a href= https://github.com/CynthiaDataAndTesting/Data/edit/main/PRACTICO/Resumen.md#c%C3%B3mo-clonar-el-repositorio><li>Cómo clonar el repositorio</li></a>
-    <a href= https://github.com/CynthiaDataAndTesting/Data/edit/main/PRACTICO/Resumen.md#c%C3%B3mo-clonar-el-repositorio><li>Cómo configurar el servidor web</li></a>
-    <a href= https://github.com/CynthiaDataAndTesting/Data/edit/main/PRACTICO/Resumen.md#c%C3%B3mo-configurar-la-base-de-datos><li>Cómo configurar la base de datos</li></a>
-    <a href= https://github.com/CynthiaDataAndTesting/Data/edit/main/PRACTICO/Resumen.md#c%C3%B3mo-acceder-al-proyecto><li>Cómo acceder al proyecto</li></a>
+    <a href= "#requisitos_previos"><li>Requisitos previos</li></a>
+    <a href= "#clonar_repositorio"><li>Cómo clonar el repositorio</li></a>
+    <a href= "#configurar_servidor"><li>Cómo configurar el servidor web</li></a>
+    <a href= "#configurar_bd"><li>Cómo configurar la base de datos</li></a>
+    <a href= "#acceder"><li>Cómo acceder al proyecto</li></a>
   </ul>
-  <a href= https://github.com/CynthiaDataAndTesting/Data/edit/main/PRACTICO/Resumen.md#estructura-del-proyecto><li>Estructura del proyecto</li></a>
+  <a href= "#estructura"><li>Estructura del proyecto</li></a>
 </ul>
 
 <h1 align="center"> PROYECTO DE LOGIN </h1>
 
 
 
-<h2 align="center"> RESUMEN </h2>
+<h2 id="resumen" align="center"> RESUMEN </h2>
 Este proyecto tuvo como objetivo la creación de un login funcional conectado a una base de datos alojada en phpMyAdmin. Para crear la base se utilizó MySQL Workbench y para alojarla en php se utilizó XAMPP. 
 
 
-<h2 align="center">Instrucciones para clonar y ejecutar el login</h2>
-<h3>Requisitos previos</h3>
+<h2 id="instrucciones" align="center">Instrucciones para clonar y ejecutar el login</h2>
+<h3 id="requisitos_previos">Requisitos previos</h3>
 <ol>
   <li>Asegúrate de tener instalado PHP</li>
   <li>Asegúrate de tener instalado un servidor como XAMPP o MAMP. <em>(En mi caso utilicé XAMPP)</em> </li>
@@ -29,14 +29,14 @@ Este proyecto tuvo como objetivo la creación de un login funcional conectado a 
   <li>Asegúrate de tener un cliente de control de versiones como Git</li>
 </ol>
 
-<h3>Cómo clonar el repositorio</h3>
+<h3 id="clonar_repositorio">Cómo clonar el repositorio</h3>
 <ol>
   <li>Abre una terminal y navega al directorio donde deseas clonar el repositorio.</li>
   <li>Ejecuta el siguiente comando: git clone https://github.com/tuusuario/nombre-del-repositorio.git</li>
   <li>Cambia el directorio del proyecto: cd nombre-del-repositorio</li>
 </ol>
 
-<h3>Cómo configurar el servidor web</h3>
+<h3 id= "configurar_servidor">Cómo configurar el servidor web</h3>
 <ol>
   <li>Copia los archivos del proyecto al directorio público del servidor web:</li>
     <ul>
@@ -46,7 +46,7 @@ Este proyecto tuvo como objetivo la creación de un login funcional conectado a 
   <li>Asegúrate de que el servidor Apache esté corriendo.</li>
 </ol>
 
-<h3>Cómo configurar la base de datos</h3>
+<h3 id="configurar_bd">Cómo configurar la base de datos</h3>
 <ol>
   <li>Abre el cliente de administración de bases de datos <strong>(como phpMyAdmin)</strong>.</li>
   <li>Importa el archivo SQL incluido en el proyecto:</li>
@@ -65,13 +65,13 @@ Este proyecto tuvo como objetivo la creación de un login funcional conectado a 
     </ul>
 </ol>
 
-<h3>Cómo acceder al proyecto</h3>
+<h3 id= "acceder">Cómo acceder al proyecto</h3>
 <ol>
   <li>Abre un navegador web.</li>
   <li>Accede a la URL del proyecto, por ejemplo: http://localhost/nombre-del-repositorio</li>
 </ol>
 
-<h2 align="center">Estructura del proyecto</h2>
+<h2 id="estructura" align="center">Estructura del proyecto</h2>
 <ul>
   <li><strong>db.php</strong>: Contiene la conexión a la base de datos. Lo hace a través de la variable conexión y mysqli_connect.</li>
   <br>
