@@ -1,8 +1,8 @@
 <h1 align= center>Data Projects</h1>
 
-Aquí encontrarán todos mis proyectos relacionados a los Datos. *¡Sean bienvenidos de explorarlos!*
+<p align=center>Aquí encontrarán todos mis proyectos relacionados a los Datos. *¡Sean bienvenidos de explorarlos!*</p>
 
-Here you will find all my Data related projects. *Feel free to explore them!*
+<p align=center>Here you will find all my Data related projects. *Feel free to explore them!*</p>
 <br>
 <br>
 
