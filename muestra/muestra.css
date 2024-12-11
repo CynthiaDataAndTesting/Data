@@ -1,0 +1,67 @@
+/*
+El selector asterisco nos ayuda a seleccionar todos los elementos. 
+Quitamos padding y margin generales.
+*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/*
+Estilos para el contenedor principal. 
+*/
+.Principal {
+    width: 100%;
+    height: 600px;
+}
+/*
+Estilos aplicados para el contenedor Tabla.
+*/
+.Tabla {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    background-color: lightgray;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+/*
+Estilos aplicados al título de nuestra tabla.
+*/
+.titulo {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 98.3%;
+    padding-left: 20px;
+    background-color: darkgreen;
+    color: white;
+}
+
+/*
+Estilos aplicados al contenedor Table.
+*/
+table {
+    width: 100%;
+}
+
+/*
+Estilos aplicados a nuestros td o filas. 
+*/
+td {
+    padding-left: 10px;
+    border-right: darkgreen 3px solid;
+    height: 35px;
+    text-align: center;
+}
+
+/*
+Animaciones 
+*/
+
+/*
+Aplicación de animación de fondo con transición.
+*/
+td:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
