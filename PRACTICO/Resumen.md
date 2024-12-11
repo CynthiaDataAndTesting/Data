@@ -1,7 +1,7 @@
 <h1>íNDICE</h1>
 <ul>
+   <a href= "#proyecto"><li>Proyecto de login</li></a>
   <a href= "#resumen"><li>Resumen</li></a>
-  <a href= "#proyecto"><li>Proyecto de login</li></a>
   <a href= "#instrucciones"><li>Instrucciones para clonar y ejecutar el login</li></a>
   <ul>
     <a href= "#requisitos_previos"><li>Requisitos previos</li></a>
