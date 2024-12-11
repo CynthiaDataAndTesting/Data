@@ -12,4 +12,6 @@
 <a href= PRACTICO/Resumen.md>PROYECTO LOGIN (PRACTICO)</a>
   -> Mi primera conexión entre un login y su base de datos. Aquí si el usuario está previamente registrado logrará ingresar a la página de inicio y sino, recibirá el mensaje de error correspondiente. 
 <hr>
+<br>
+
 
