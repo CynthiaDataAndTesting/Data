@@ -1,6 +1,7 @@
 <h1>íNDICE</h1>
 <ul>
   <a href= "#resumen"><li>Resumen</li></a>
+  <a href= "#proyecto"><li>Proyecto de login</li></a>
   <a href= "#instrucciones"><li>Instrucciones para clonar y ejecutar el login</li></a>
   <ul>
     <a href= "#requisitos_previos"><li>Requisitos previos</li></a>
@@ -12,14 +13,28 @@
   <a href= "#estructura"><li>Estructura del proyecto</li></a>
 </ul>
 
-<h1 align="center"> PROYECTO DE LOGIN </h1>
-
+<br>
+<br>
+<br>
+<br>
+<h1 id="proyecto" align="center"> PROYECTO DE LOGIN </h1>
+<br>
+<div align= "center">
+  <img src="images/login.png" alt="Login">
+</div>
+<br>
+<br>
+<br>
+<br>
 
 
 <h2 id="resumen" align="center"> RESUMEN </h2>
 Este proyecto tuvo como objetivo la creación de un login funcional conectado a una base de datos alojada en phpMyAdmin. Para crear la base se utilizó MySQL Workbench y para alojarla en php se utilizó XAMPP. 
 
-
+<br>
+<br>
+<br>
+<br>
 <h2 id="instrucciones" align="center">Instrucciones para clonar y ejecutar el login</h2>
 <h3 id="requisitos_previos">Requisitos previos</h3>
 <ol>
@@ -71,6 +86,10 @@ Este proyecto tuvo como objetivo la creación de un login funcional conectado a 
   <li>Accede a la URL del proyecto, por ejemplo: http://localhost/nombre-del-repositorio</li>
 </ol>
 
+<br>
+<br>
+<br>
+<br>
 <h2 id="estructura" align="center">Estructura del proyecto</h2>
 <ul>
   <li><strong>db.php</strong>: Contiene la conexión a la base de datos. Lo hace a través de la variable conexión y mysqli_connect.</li>
