@@ -12,6 +12,6 @@
 <!-- 
     Página de bienvenida de prueba.
 -->
-<h1>BIENBENIDO A LA PÁGINA</h1>
+<h1>BIENVENIDO A LA PÁGINA</h1>
 </body>
 </html>
