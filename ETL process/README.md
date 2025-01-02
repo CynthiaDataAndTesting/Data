@@ -26,3 +26,34 @@ Los autos usados tienen cuatro atributos: modelo (car_model), año de fabricaci�
   <li>Se aplican transformaciones a los datos. En este caso, el precio de los autos se redondea a dos cifras decimales.</li>
   <li>Los datos se cargan en el dataframe. Y los procedimientos aplicados se registran en el archivo log_file</li>
 </ol>
+<br>
+<br>
+<h2>Estructura del Proyecto</h2>
+<p><strong>data_source:</strong> carpeta que contiene todos los archivos importantes del proyecto. Tiene función de directorio.</p>
+<br>
+<p><strong>datasource.zip:</strong> carpeta comprimida que contiene los distintos archivos fuentes.</p>
+<br>
+<p><strong>etl_practice.py:</strong> script de python que contiene el código del proyecto.</p>
+<br>
+<p><strong>log_file.txt:</strong> archivo que lleva el registro en formato fecha de cada ejecución del proceso ETL.</p>
+<br>
+<p><strong>transformed_data.csv:</strong> archivo que contiene los datos finales.</p>
+<br>
+<p><strong>used_car_prices1.csv:</strong> archivo fuente que contiene un listado de autos usados en formato csv.</p>
+<br>
+<p><strong>used_car_prices1.json:</strong> archivo fuente que contiene un listado de autos usados en formato json.</p>
+<br>
+<p><strong>used_car_prices1.xml:</strong> archivo fuente que contiene un listado de autos usados en formato xml.</p>
+<br>
+<p><strong>used_car_prices2.csv:</strong> archivo fuente que contiene un listado de autos usados en formato csv.</p>
+<br>
+<p><strong>used_car_prices2.json:</strong> archivo fuente que contiene un listado de autos usados en formato json.</p>
+<br>
+<p><strong>used_car_prices2.xml:</strong> archivo fuente que contiene un listado de autos usados en formato xml.</p>
+<br>
+<p><strong>used_car_prices3.csv:</strong> archivo fuente que contiene un listado de autos usados en formato csv.</p>
+<br>
+<p><strong>used_car_prices3.json:</strong> archivo fuente que contiene un listado de autos usados en formato json.</p>
+<br>
+<p><strong>used_car_prices3.xml:</strong> archivo fuente que contiene un listado de autos usados en formato xml.</p>
+<br>
