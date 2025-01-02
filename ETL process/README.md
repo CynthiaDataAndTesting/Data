@@ -26,6 +26,10 @@ Los autos usados tienen cuatro atributos: modelo (car_model), a√±o de fabricaci√
   <li>Se aplican transformaciones a los datos. En este caso, el precio de los autos se redondea a dos cifras decimales.</li>
   <li>Los datos se cargan en el dataframe. Y los procedimientos aplicados se registran en el archivo log_file</li>
 </ol>
+<div align = Center>
+  <img src = "data_source\images\dataframe.png" alt = "dataframe">
+</div>
+
 <br>
 <br>
 <h2>Estructura del Proyecto</h2>
