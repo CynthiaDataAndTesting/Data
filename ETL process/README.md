@@ -35,7 +35,7 @@ Los autos usados tienen cuatro atributos: modelo (car_model), año de fabricaci�
 <br>
 <p><strong>etl_practice.py:</strong> script de python que contiene el código del proyecto.</p>
 <br>
-<p><strong>log_file.txt:</strong> archivo que lleva el registro en formato fecha de cada ejecución del proceso ETL.</p>
+<p><a href = "Data\ETL process\data_source\log_file.txt"><strong>log_file.txt:</strong></a> archivo que lleva el registro en formato fecha de cada ejecución del proceso ETL.</p>
 <br>
 <p><strong>transformed_data.csv:</strong> archivo que contiene los datos finales.</p>
 <br>
