@@ -1,0 +1,7 @@
+2025-Jan-04-23:00:34:Extraccion de datos completa. Iniciando el proceso ETL
+2025-Jan-04-23:00:34:Transformacion de datos completa. Iniciando proceso  de carga.
+2025-Jan-04-23:00:34:Datos guardados en el archivo CSV
+2025-Jan-04-23:00:34:Conexion SQL iniciada
+2025-Jan-04-23:00:34:Datos cargados a la base de datos como una tabla, ejecutando consultas.
+2025-Jan-04-23:00:34:Proceso completo.
+2025-Jan-04-23:00:34:Conexion del servidor cerrada.
